@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../worker.js"],
+  "sourceRoot": "C:\\Users\\erfan\\Desktop\\personal-workspace\\CICD\\github action practice\\cfWorker\\my-worker\\.wrangler\\tmp\\deploy-6KXYXQ",
+  "sourcesContent": ["export default {\r\n    async fetch(request, env)\r\n    {\r\n        return new Response(\"Hello wccccccccccccccccccccccccccccccccorld\")\r\n    }\r\n}"],
+  "mappings": ";AAAA,IAAO,iBAAQ;AAAA,EACX,MAAM,MAAM,SAAS,KACrB;AACI,WAAO,IAAI,SAAS,6CAA6C;AAAA,EACrE;AACJ;",
+  "names": []
+}
