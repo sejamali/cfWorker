@@ -55,7 +55,7 @@ async function handleRequest(request)
     }
 
     // Return the fetched data as the response
-    return new Response(btoa(statusConfig).toString(), {
+    return new Response(statusConfig, {
         headers: { 'content-type': 'text/plain' },
     });
 }
