@@ -16,7 +16,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v2  # Set up Node.js environment
       with:
-        node-version: '16'  # Specify the Node.js version to install
+        node-version: '20'  # Specify the Node.js version to install
 
     - name: Install Wrangler
       run: npm install -g wrangler  # Install Wrangler globally using npm
