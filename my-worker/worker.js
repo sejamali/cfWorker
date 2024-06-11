@@ -1,6 +1,6 @@
 export default {
     async fetch(request, env)
     {
-        return new Response("Hello wccccccccccccccccccccccccccccccccorld")
+        return new Response("CI/CD Worked!")
     }
 }
