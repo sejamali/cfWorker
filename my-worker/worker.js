@@ -46,6 +46,7 @@
             statusConfig += "\n" + config;
         }
         console.log("3");
+        console.log(atob(statusConfig).toString())
         return new Response(atob(statusConfig).toString(), {
             headers: { "content-type": "text/plain" }
         });
