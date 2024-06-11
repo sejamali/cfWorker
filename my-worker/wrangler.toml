@@ -1,0 +1,6 @@
+name = "cicdtest"
+main = "worker.js"
+type = "javascript"
+
+account_id = "erfinon@gmail.com"
+workers_dev = true
