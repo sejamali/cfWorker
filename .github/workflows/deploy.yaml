@@ -24,4 +24,4 @@ jobs:
     - name: Publish to Cloudflare Workers
       env:
         CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}  # Use the Cloudflare API token from secrets
-      run: wrangler deploy /my-worker  # Deploy the Cloudflare Worker
+      run: wrangler deploy ./my-worker  # Deploy the Cloudflare Worker
